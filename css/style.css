@@ -1,0 +1,7 @@
+.pie{
+    visibility: visible;
+    background-color: rgb(20,159,181);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
