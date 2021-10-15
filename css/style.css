@@ -5,3 +5,13 @@
     display: flex;
     justify-content: space-between;
 }
+#menu.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.img-caracteristicas{
+    width: 50%;
+    height: 90%;
+    margin-left:20%;
+}
