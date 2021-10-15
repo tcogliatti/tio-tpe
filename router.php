@@ -1,9 +1,9 @@
 <?php
-define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/');
+define('BASE_URL', '//' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']) . '/');
 
-if (!empty($_GET['action'])){
+if (!empty($_GET['action'])) {
     $action = $_GET['action'];
-} else{
+} else {
     $action = 'home';
 }
 $params = explode('/', $action);
@@ -11,17 +11,20 @@ $params = explode('/', $action);
 switch ($params[0]) {
     case 'home':
         include_once('index.php');
-    break;
+        break;
     case 'estructura':
         include_once('estructura.php');
-    break;
+        break;
     case 'clasificacion':
-       include_once('clasificacion.php');
-    break;
+        include_once('clasificacion.php');
+        break;
     case 'caracteristicas':
         include_once('caracteristicas.php');
-    break;
+        break;
+    case 'equipo':
+        include_once('equipo.php');
+        break;
     default:
         echo "error";
-    break;
+        break;
 }

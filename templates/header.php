@@ -12,3 +12,34 @@
 </head>
 
 <body class="cuerpo">
+    <div class="container w-75 mt-3">
+        <img class="w-100" src="./images/header.png" alt="encabezado">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="estructura">Estructura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="clasificacion">Clasificación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="caracteristicas">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Cultura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="equipo">Equipo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
