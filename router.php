@@ -4,22 +4,23 @@ define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] 
 if (!empty($_GET['action'])){
     $action = $_GET['action'];
 } else{
-    $action = 'listar';
+    $action = 'home';
 }
 $params = explode('/', $action);
 
 switch ($params[0]) {
-    case '':
-        
+    case 'home':
+        include_once('index.php');
     break;
-    case '':
-  
+    case 'estructura':
+        include_once('estructura.php');
     break;
-    case '':
-      
+    case 'clasificacion':
+       include_once('clasificacion.php');
     break;
-    
-    
+    case 'caracteristicas':
+        include_once('caracteristicas.php');
+    break;
     default:
         echo "error";
     break;
