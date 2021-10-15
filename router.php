@@ -20,7 +20,7 @@ switch ($params[0]) {
         break;
     case 'caracteristicas':
         include_once('caracteristicas.php');
-        break;
+    break;
     case 'equipo':
         include_once('equipo.php');
         break;
