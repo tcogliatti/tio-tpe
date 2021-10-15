@@ -11,4 +11,4 @@
     <title>TPE-TIO</title>
 </head>
 
-<body>
+<body class="cuerpo">
