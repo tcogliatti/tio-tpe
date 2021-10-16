@@ -13,7 +13,7 @@
             </ul>
         </div>
         <div>
-            <img src="./images/vacunacionn.jpeg" alt="" class="img-caracteristicas">
+            <img src="images/vacunacionn.jpeg" alt="" class="img-caracteristicas">
         </div>
     </div>
 </div>
