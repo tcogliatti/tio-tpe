@@ -33,6 +33,9 @@ switch ($params[0]) {
     case 'recursosMateriales':
         include_once('recursosMateriales.php');
     break;
+    case 'recursoshumanos':
+        include_once('recursoshumanos.php');
+    break;
     case 'organigrama':
         include_once('organigrama.php');
     break;
