@@ -34,9 +34,6 @@
                             <a class="nav-link" href="caracteristicas">Características</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Cultura</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="equipo">Equipo</a>
                         </li>
                     </ul>
