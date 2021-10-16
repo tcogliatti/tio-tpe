@@ -13,7 +13,7 @@
 
 <body class="cuerpo">
     <div class="container w-75 mt-3">
-        <img class="w-100" src="images/header.png" alt="encabezado">
+        <img class="w-100" src="./images/header.png" alt="encabezado">
         <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
