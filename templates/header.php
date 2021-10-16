@@ -31,6 +31,9 @@
                             <a class="nav-link" href="clasificacion">Clasificación</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="organigrama">Organigrama</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="caracteristicas">Características</a>
                         </li>
                         <li class="nav-item">
