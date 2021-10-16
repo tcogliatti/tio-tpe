@@ -23,7 +23,19 @@ switch ($params[0]) {
     break;
     case 'equipo':
         include_once('equipo.php');
-        break;
+    break;
+    case 'objetivos':
+        include_once('objetivos.php');
+    break;
+    case 'metas':
+        include_once('metas.php');
+    break;
+    case 'recursosMateriales':
+        include_once('recursosMateriales.php');
+    break;
+    case 'recursoshumanos':
+        include_once('recursoshumanos.php');
+    break;
     default:
         echo "error";
         break;
